@@ -8,7 +8,7 @@
   
   <router-view/>
 
-  
+
 
 </template>
 
@@ -39,4 +39,6 @@ nav a {
 nav a.router-link-exact-active {
   color: #ffffff;;
 }
+
+
 </style>

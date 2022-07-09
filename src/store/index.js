@@ -14,6 +14,12 @@ export default createStore({
   mutations: {
     getCharacters(state){
 
+      const params = {
+
+        name: this.search
+
+        }
+
       state.characters = []
 
       axios.get(`https://gateway.marvel.com:443/v1/public/characters?apikey=${public_key}`)
@@ -33,6 +39,12 @@ export default createStore({
       .catch((error) => {
         console.log(error)
       })
+
+    },
+
+    searchData (){
+      this.page = 1
+      this.fetch();
 
     },
 

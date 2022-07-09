@@ -1,10 +1,11 @@
 <template>
     <div class="todo" >
         <div class="todo-body" >
-            <input type="checkbox" 
+            <div type="checkbox">
                 
-                v-on:change="checkTodo">
+                
             {{todo.title}}
+            </div>
         </div>
 
         <div class="todo-actions">
@@ -17,11 +18,7 @@
     export default {
         name: 'TodoItem',
         props: ['todo'],
-        // methods: {
-        //     checkTodo(){
-        //         this.todo.completed = !this.todo.completed;
-        //     }
-        // }
+
     }
 </script>
 
@@ -35,10 +32,7 @@
         background-color: #eee;
     }
 
-    /* .completed{
-        color: #ccc;
-        text-decoration: line-through;
-    } */
+
 
     .completed .todo-body{
         text-decoration: line-through;
