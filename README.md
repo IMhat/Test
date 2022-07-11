@@ -23,6 +23,11 @@ Se requiere:
 
 En este repositorio se desarrollo la produccion del test, en el cual me encontre con algunos problemas a la hora de hacer el CALL a la API, que luego en el repositorio final fueron corregidos.
 
+## Final repository
+
+https://github.com/IMhat/Test-Upgrade
+
+
 ## Technology
 
 Para este proyecto se utilizaron las siguientes tecnologias:
